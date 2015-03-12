@@ -1,0 +1,33 @@
+{
+    "name": "React-Canvas",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "gulp": "^3.8.11",
+        "del": "^1.1.1",
+        "gulp-webserver": "^0.9.0",
+        "gutil": "^1.6.4",
+        "browserify": "^9.0.3",
+        "watchify": "^2.4.0",
+        "reactify": "^1.0.0",
+        "gulp-util": "^3.0.4",
+        "gulp-compass": "^2.0.3",
+        "browserify-shim": "^3.8.3",
+        "vinyl-source-stream": "^1.1.0",
+        "gulp-bower": "0.0.10"
+    },
+    "dependencies": {
+        "react": "^0.13.0"
+    },
+    "browserify": {
+        "transform": [
+            ["reactify", {"es6": true}]
+        ]
+    }
+}

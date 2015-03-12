@@ -1,0 +1,41 @@
+@import "compass/reset";
+
+body {
+	background: #000;
+	font: 100%/20px helvetica, arial, sans-serif;
+
+	#app {
+
+		.panel {
+			border: 2px solid #4D4D4D;
+			left: 20px;
+			padding: 15px;
+			position: absolute;
+			top: 20px;
+			z-index: 2;
+
+			p {
+				color: #aaa;
+				font-size: 16px;
+				margin-bottom: 5px;
+			}
+
+			label {
+				color: #FFF;
+				display: block;
+				font-size: 14px;
+			}
+		}
+
+		canvas {
+			display: block;
+			height: 100%;
+			left: 0;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+	}
+}
